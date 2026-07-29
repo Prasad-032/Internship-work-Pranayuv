@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PRANAYUV Healthcare Technologies</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <span class="logo-icon">⬡</span>
+      <span class="logo-text">Pranayuv Technology</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#contact">Let's Talk</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag">AYUV Hybrid Bed</p>
+      <h1 class="hero-title"><span class="teal">AYUV</span> Hybrid Bed</h1>
+      <p class="hero-sub">Designed for Hospital Efficiency. A revolutionary system that transforms from bed to wheelchair seamlessly.</p>
+      <div class="hero-ctas">
+        <a href="#products" class="btn btn-primary">Explore More &#8594;</a>
+        <a href="#contact" class="btn btn-outline">Contact Us &#8594;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT INTRO -->
+  <section class="intro" id="products">
+    <div class="intro-text">
+      <h2>Redefining the Intelligent <span class="teal">Patient Care</span></h2>
+      <p>The AYUV Hybrid Bed integrates mobility, hygiene management, and smart monitoring into a single, cohesive platform.</p>
+      <ul class="feature-list">
+        <li><span class="icon">&#9654;</span> Bed-to-Wheelchair Conversion</li>
+        <li><span class="icon">&#9654;</span> Integrated Hygiene System</li>
+        <li><span class="icon">&#9654;</span> Motorised Position Control</li>
+        <li><span class="icon">&#9654;</span> Smart Control Interface</li>
+        <li><span class="icon">&#9654;</span> Advanced Safety System</li>
+      </ul>
+      <div class="intro-ctas">
+        <a href="#contact" class="btn btn-primary">Request Demo</a>
+        <a href="#" class="btn btn-ghost">Download Brochure</a>
+      </div>
+    </div>
+    <div class="intro-visual">
+      <div class="product-render">
+        <div class="render-glow"></div>
+        <model-viewer
+          src="Hospital Bed.glb"
+          alt="AYUV Hybrid Bed 3D Model"
+          auto-rotate
+          camera-controls
+          shadow-intensity="1"
+          exposure="1.1"
+          style="width: 100%; max-width: 420px; height: 340px; background: transparent;"
+        ></model-viewer>
+        <button class="btn-3d-view" id="open3D">
+          <span class="btn-3d-icon">&#11035;</span> View Full 3D Model
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE SECTIONS -->
+  <section class="features" id="features">
+
+    <!-- Mobility -->
+    <div class="feature-block" style="--bg: url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=1400&q=80')">
+      <div class="feature-overlay"></div>
+      <div class="feature-content">
+        <div class="feature-text">
+          <h3>Mobility</h3>
+          <p>Seamlessly transform from a full hospital bed to a mobility-ready wheelchair without manual lifting. Ensures patient dignity and reduces caregiver strain.</p>
+          <a href="#" class="link-more">More Insights &#8594;</a>
+        </div>
+        <div class="wheelchair-embed">
+          <div class="wheelchair-embed-label">Lite Folding Powered Wheelchair</div>
+          <div class="sketchfab-embed-wrapper">
+            <iframe
+              title="Lite folding powered wheelchair"
+              frameborder="0"
+              allowfullscreen
+              mozallowfullscreen="true"
+              webkitallowfullscreen="true"
+              allow="autoplay; fullscreen; xr-spatial-tracking"
+              xr-spatial-tracking
+              execution-while-out-of-viewport
+              execution-while-not-rendered
+              web-share
+              src="https://sketchfab.com/models/fe64c933bce74958a14e3b42aca017ca/embed?autospin=1&autostart=1&ui_theme=dark&ui_infos=0&ui_watermark=0">
+            </iframe>
+          </div>
+          <p class="wheelchair-credit">
+            <a href="https://sketchfab.com/3d-models/lite-folding-powered-wheelchair-fe64c933bce74958a14e3b42aca017ca" target="_blank" rel="nofollow">Lite folding powered wheelchair</a> by <a href="https://sketchfab.com/AivisAstics" target="_blank" rel="nofollow">HQ3DMOD</a> on Sketchfab
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hygiene -->
+    <div class="feature-block feature-block--alt" style="--bg: url('https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1400&q=80')">
+      <div class="feature-overlay"></div>
+      <div class="feature-content">
+        <div class="feature-text">
+          <h3>Hygiene</h3>
+          <p>Built-in rinse, wash, and waste collection unit. Automated cleaning mechanism supports infection control for long-term immobile patients.</p>
+          <a href="#" class="link-more">More Insights &#8594;</a>
+        </div>
+        <div class="feature-cards">
+          <div class="fcard fcard-img">
+            <img src="https://placehold.co/200x150/2a5a6a/ffffff?text=Hygiene+System" alt="Hygiene system" />
+          </div>
+          <div class="fcard fcard-icon">
+            <div class="icon-circle">&#10003;</div>
+            <span>Infection Control</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Positioning -->
+    <div class="feature-block" style="--bg: url('https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=1400&q=80')">
+      <div class="feature-overlay"></div>
+      <div class="feature-content">
+        <div class="feature-text">
+          <h3>Positioning</h3>
+          <p>Precision DC linear actuators for height, backrest, and leg support. Achieve zero-gravity comfort with silent, smooth operation.</p>
+          <a href="#" class="link-more">More Insights &#8594;</a>
+        </div>
+        <div class="feature-cards">
+          <div class="fcard fcard-icon">
+            <div class="icon-circle">&#9670;</div>
+            <span>Zero Gravity</span>
+          </div>
+          <div class="fcard fcard-img">
+            <img src="https://placehold.co/200x150/2a5a6a/ffffff?text=Position+Control" alt="Position control" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Smart Control -->
+    <div class="feature-block feature-block--alt" style="--bg: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1400&q=80')">
+      <div class="feature-overlay"></div>
+      <div class="feature-content">
+        <div class="feature-text">
+          <h3>Smart Control</h3>
+          <p>Intuitive touchscreen interface with remote monitoring. Real-time vitals integration and nurse call system built in.</p>
+          <a href="#" class="link-more">More Insights &#8594;</a>
+        </div>
+        <div class="feature-cards">
+          <div class="fcard fcard-icon">
+            <div class="icon-circle">&#128241;</div>
+            <span>Remote Monitor</span>
+          </div>
+          <div class="fcard fcard-img">
+            <img src="https://placehold.co/200x150/2a5a6a/ffffff?text=Smart+Interface" alt="Smart interface" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- PRODUCT OVERVIEW -->
+  <section class="overview">
+    <div class="overview-inner">
+      <div class="overview-brand">
+        <span class="logo-icon">⬡</span>
+        <strong>PRANAYUV Healthcare Technologies</strong>
+      </div>
+      <h2>AYUV Hybrid Bed – Mobility Care Edition</h2>
+      <p class="overview-tagline"><em>Bed. Wheelchair. Hygiene. Control.</em></p>
+      <p class="overview-sub">Engineered for Patient Dignity. Designed for Hospital Efficiency.</p>
+      <div class="overview-body">
+        <h4>Product Overview</h4>
+        <p>The AYUV Hybrid Bed – Mobility Care Edition is a next-generation smart hospital bed designed to address patient care for immobile and mobility-impaired patients. It integrates hygiene management, safety monitoring, and smart control into a single system — engineered to reduce caregiver workload and eliminate manual patient transfers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <h2>Let's Talk</h2>
+      <p>Interested in a demo or partnership? Reach out to us.</p>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="about">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">⬡</span>
+        <span>Pranayuv Technology</span>
+      </div>
+      <p class="footer-tagline">Redefining Intelligent Patient Care</p>
+      <nav class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Let's Talk</a>
+        <a href="#about">About</a>
+      </nav>
+      <p class="footer-copy">&copy; 2026 PRANAYUV Healthcare Technologies. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- 3D VIEWER MODAL -->
+  <div class="modal-3d" id="modal3D" role="dialog" aria-modal="true" aria-label="Full 3D Model Viewer">
+    <div class="modal-3d-inner">
+      <div class="modal-3d-header">
+        <span>AYUV Hybrid Bed — 3D View</span>
+        <button class="modal-close" id="close3D" aria-label="Close 3D viewer">&times;</button>
+      </div>
+      <model-viewer
+        id="fullViewer"
+        src="Hospital Bed.glb"
+        alt="AYUV Hybrid Bed Full 3D Model"
+        auto-rotate
+        camera-controls
+        shadow-intensity="1.5"
+        exposure="1.2"
+        environment-image="neutral"
+        tone-mapping="commerce"
+        style="width:100%; height:100%;"
+      >
+        <div class="modal-3d-hint" slot="progress-bar"></div>
+        <div class="viewer-controls-hint">Drag to rotate &nbsp;|&nbsp; Scroll to zoom &nbsp;|&nbsp; Right-click to pan</div>
+      </model-viewer>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
